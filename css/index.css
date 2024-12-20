@@ -1,0 +1,112 @@
+/**{
+    border:1px solid black;
+} esto es para bordear todo */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    max-width:10px;
+    height: auto;
+    
+   
+
+}
+h1{
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+article {
+    width: 30%;
+}
+article Img {
+    width: 100%;
+    overflow: hidden;
+   
+}
+#seccionFotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.seccionImg{
+    height: 300%;
+    overflow: hidden;
+}
+.contenedorImg{
+    height: 290px;
+    overflow: hidden;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+}
+
+article {
+    width: 30%;
+    
+}
+
+article img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#seccionFotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.seccionImg {
+    height: 300%;
+    overflow: hidden;
+}
+
+.contenedorImg {
+    height: 290px;
+    overflow: hidden;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Media Queries para diseño responsive */
+@media (max-width: 768px) {
+    article {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    article {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #logo {
+        margin-bottom: 10px;
+    }
+}
